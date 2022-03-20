@@ -1,0 +1,86 @@
+.principal {
+  width: 100%;
+  height: 100vh;
+  background-image: url(img/bg-repeat.jpg);
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.principal .areaTexto {
+  color: #fff;
+  width: 50%;
+  max-height: 378px;
+  margin-left: 10%;
+}
+.principal .areaTexto p {
+  margin-top: 1em;
+  line-height: 20px;
+  font-weight: 400;
+  max-width: 320px;
+  font-size: 15px;
+}
+.principal .areaTexto h1 {
+  font-weight: 900;
+  font-size: 1.6em;
+}
+.principal .areaFormulario {
+  max-height: 390px;
+  width: 30%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  margin-right: 10%;
+}
+.caixa {
+  width: 90%;
+  border-radius: 5px;
+  border: solid 1px black;
+  margin-top: 1.5em;
+  font-weight: 700;
+}
+.principal .areaFormulario .maior {
+  padding: 0px 10px;
+  height: 6em;
+  resize: none;
+}
+.principal .areaFormulario .menor {
+  height: 2em;
+  padding: 0px 10px;
+}
+.principal .areaFormulario h2 {
+  align-self: flex-start;
+  font-size: 0.8em;
+  margin-left: 1em;
+  margin-bottom: 1em;
+  margin-top: 0.5em;
+  font-weight: 400;
+}
+.label {
+  align-self: flex-start;
+  font-size: 0.5em;
+  margin-left: 3em;
+  display: none;
+}
+
+.principal .areaFormulario .btEnviar {
+  width: 90%;
+  background-color: #3bcc87;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  height: 2em;
+}
+.erro {
+  color: red;
+  display: inline;
+}
+.validado {
+  border: 1px solid #3bcc87;
+}
+.invalid {
+  border: 1px solid red;
+}

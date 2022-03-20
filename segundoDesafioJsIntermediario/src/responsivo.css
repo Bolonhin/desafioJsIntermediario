@@ -1,0 +1,63 @@
+@media (max-width: 900px) {
+  .principal .container {
+    width: 30em;
+    height: 15em;
+  }
+  .principal .imagemImersiva {
+    width: 200px;
+    height: 200px;
+    left: -70px;
+  }
+  .principal .container .titulo {
+    width: 67%;
+  }
+  .principal .container .titulo h1 {
+    font-size: 1em;
+  }
+  .principal .container .box p {
+    font-size: 0.6em;
+  }
+  .principal .container .box .radio {
+    font-size: 0.7em;
+  }
+}
+@media (max-width: 650px) {
+  .principal .container {
+    height: 55vh;
+    max-height: 900px;
+    width: 60%;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0.5em;
+    margin: 0;
+  }
+  .principal .container .box {
+    margin: 0;
+    width: 90%;
+  }
+  .principal .imagemImersiva {
+    width: 150px;
+    height: 150px;
+    left: 0;
+    right: 0;
+    top: -70px;
+    margin: 0 auto;
+  }
+  .principal .container .titulo {
+    width: 85%;
+  }
+  .principal .container .titulo h1 {
+    font-size: 0.7em;
+  }
+  .principal .container .box p {
+    font-size: 0.6em;
+    line-height: 18px;
+  }
+  .principal .container .box .radio {
+    font-size: 0.6em;
+  }
+  .imagem {
+    width: 10px;
+    height: 5px;
+  }
+}

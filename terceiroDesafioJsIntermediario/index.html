@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/reset.css">
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="src/responsive.css">
+    <title>Formulário De Dúvidas</title>
+</head>
+
+<body>
+    <main class="principal">
+        <section class="areaTexto">
+            <h1>FICOU COM DÚVIDA?<br> NOS MANDE UMA MENSAGEM!</h1>
+            <p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de
+                24h.</p>
+        </section>
+        <form class="areaFormulario">
+            <input id="nome" class="caixa menor" type="text" placeholder="Nome completo *" >
+            <label class="label " for="nome">campo obrigatório</label>
+            <input id="email" class="caixa menor" type="email" placeholder="Email *">
+            <label class="label " for="email">campo obrigatório</label>
+            <input id="telefone" class="caixa menor" type="text" placeholder="Telefone *">
+            <label class="label " for="telefone">campo obrigatório</label>
+            <textarea id="mensagem" class="caixa maior" id="" placeholder="Mensagem *"></textarea>
+            <label for="mensagem" class="label ">campo obrigatório</label>
+            <h2>*campos obrigatórios</h2>
+            <input id="enter" class="btEnviar" type="button" value="ENVIAR">
+        </form>
+    </main>
+    <script type="text/javascript" src="src/index.js"></script>
+</body>
+
+</html>

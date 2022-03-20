@@ -1,0 +1,23 @@
+@media (max-width: 700px) {
+  .principal {
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+  }
+  .principal .areaFormulario {
+    margin: 3em auto;
+    width: 60%;
+  }
+  .principal .areaTexto {
+    width: 60%;
+    margin-top: 3em;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .principal .areaTexto h1 {
+    margin-top: 3em;
+  }
+}
